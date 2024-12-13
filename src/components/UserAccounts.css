@@ -1,0 +1,114 @@
+:root {
+    --color-text: #fff;
+    --color-primary: #576cbc;
+    --color-secondary: #19376d;
+    --color-dark: #0b2447;
+    --color-bg: #04152d;
+  }
+  
+  body {
+    margin: 10;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, var(--color-dark), var(--color-bg));
+    color: var(--color-text);
+    min-height: 100vh;
+  }
+
+.user-account {
+    max-width: 600px;
+    margin: 50px auto;
+    background: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .profile-section {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .profile-section h1 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .profile-picture {
+    position: relative;
+  }
+  
+  .profile-picture img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .profile-picture .update-btn {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: #576cbc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .profile-picture .update-btn:hover {
+    background-color: #19376d;
+  }
+  
+  .profile-form .input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+  
+  .profile-form .input-group label {
+    margin-bottom: 5px;
+    color: #555;
+    font-weight: bold;
+  }
+  
+  .profile-form .input-group input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .button-group .save-btn,
+  .button-group .cancel-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+    transition: background 0.3s ease;
+  }
+  
+  .button-group .save-btn {
+    background-color: #28a745;
+  }
+  
+  .button-group .save-btn:hover {
+    background-color: #218838;
+  }
+  
+  .button-group .cancel-btn {
+    background-color: #dc3545;
+  }
+  
+  .button-group .cancel-btn:hover {
+    background-color: #c82333;
+  }
+  

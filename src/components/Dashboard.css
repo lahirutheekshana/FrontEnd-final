@@ -1,0 +1,138 @@
+
+.App{
+    background: linear-gradient(
+        106.37deg,
+        #ffe1bc 29.63%,
+        #ffcfd1 51.55%,
+        #f3c6f1 90.855%
+
+    );
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.AppGlass{
+    display: grid;
+    height: 97%;
+    width: 97%;
+    border-radius: 2rem;
+    background-color: rgb(24, 24, 153);
+    overflow: hidden;
+    grid-template-columns: 11rem auto 20rem;
+    grid-template-rows: auto;
+
+
+}
+.logo-text-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px; /* Space below the logo-text pair */
+}
+
+.trading-logo {
+  width: 60px;
+  height: auto;
+  margin-right: 30px; /* Space between logo and TPlan text */
+}
+
+.trading-name {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: black;
+  font-size: 30px;
+}
+
+.logo-text-container>span>span {
+  color: red;
+}
+
+.sidebar-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  width: 256px;
+  padding: 20px 0;
+  background-color: white;
+}
+
+
+.dashboard-container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    color: rgb(228, 228, 228);
+  }
+  
+  /* Sidebar styles */
+
+  .menu{
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 7rem;
+  }
+
+  .menu-sidebar .ant-menu-item {
+    margin-bottom: 2rem; /* Add more space below each menu item */
+    font-size: 1.2rem; /* Increase font size */
+    
+  }
+
+  .menu-sidebar .ant-menu-item:hover {
+    background-color: rgba(0, 0, 0, 0.1); /* Highlighting effect */
+  }
+
+  .menu-sidebar .ant-menu-item-selected {
+    background-color: rgba(0, 0, 0, 0.2); /* Active item effect */
+  }
+
+  .menu-sidebar {
+    gap: 345rem;
+    width: 256px;
+    color: rgb(30, 31, 31);
+  }
+
+  
+  /* Content area styles */
+.content-area {
+    padding: 5rem; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+.Dashboard1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  /* Vertically center the content */
+    text-align: center;
+    height: 100%;
+  }
+  
+.dashboard-inputs {
+    display: flex;
+    justify-content: space-between;
+    width: 100%; 
+    padding: 1rem;
+    
+    
+  }
+
+  .dashboard-inputs h1 {
+    white-space: nowrap; /* Prevents the text from wrapping onto multiple lines */
+    color: white; /* Matches your color theme */
+    font-size: 4rem; /* Adjust the size as per your preference */
+    
+}
+  
+
+
+
+  
